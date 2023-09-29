@@ -1,0 +1,60 @@
+/* Center the entire form */
+/* Center the entire form */
+.centered-form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Change to flex-start */
+  min-height: 100vh; /* Use min-height instead of height */
+  padding-top: 20px; /* Add some padding at the top */
+}
+
+  
+  /* Style for the form box */
+  .form-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Style for each form field */
+  .form-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for labels */
+  .form-label {
+    font-weight: bold;
+    margin-right: 10px; /* Adjust the space between label and input */
+  }
+  
+  /* Style for input elements */
+  .form-field input {
+    flex: 1;
+  }
+  
+  /* Optional: Style the submit button */
+  .form-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Style the submit button on hover */
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  body {
+    overflow: hidden;
+  }
+  .error-text {
+    color: red;
+  }
+  
+  

@@ -1,0 +1,44 @@
+/* Style for the footer container */
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Style for the content inside the footer */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Style for the links in the footer */
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .footer-content ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Additional styles as needed */
+  

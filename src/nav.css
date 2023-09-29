@@ -1,0 +1,33 @@
+/* nav.css */
+
+nav {
+    background-color: #333;
+    height: 80px; /* Set the desired height for the navigation bar */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
